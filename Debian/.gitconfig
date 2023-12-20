@@ -1,0 +1,7 @@
+[user]
+	email = iggoroi.g@gmail.com
+	name = iggoroi
+[init]
+	defaultBranch = master
+[credential]
+	helper = save
