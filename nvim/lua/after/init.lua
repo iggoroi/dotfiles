@@ -1,0 +1,8 @@
+require("after.colorscheme")
+require("after.lualine")
+require("after.plugins.telescope")
+require("after.plugins.oil")
+require("after.formatter")
+require("after.plugins.linting")
+require("after.plugins.completion")
+require("after.plugins.lsp")
