@@ -1,9 +1,9 @@
 return {
 	"nvim-treesitter/nvim-treesitter",
-	build = ":TSUpdate",
+	name = "Treesitter",
+	event = "BufReadPre",
 	opts = {
-		auto_install = true,
-		endure_installed = {
+		ensure_installed = {
 			"yaml",
 			"toml",
 			"html",
@@ -25,4 +25,8 @@ return {
 			},
 		},
 	},
+	build = ":TSUpdate",
+	config = function(_, opts)
+		require("nvim-treesitter.configs").setup(opts)
+	end,
 }

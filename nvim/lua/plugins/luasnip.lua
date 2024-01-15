@@ -1,5 +1,7 @@
 return {
 	"L3MON4D3/LuaSnip",
+	name = "LuaSnip",
+	event = "BufReadPre *.*",
 	dependencies = {
 		"rafamadriz/friendly-snippets",
 	},
