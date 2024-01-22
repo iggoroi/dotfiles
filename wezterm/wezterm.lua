@@ -78,5 +78,6 @@ return {
 	cursor_blink_ease_out = "Linear",
 	animation_fps = 1,
 	keys = keys,
+	font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" }), -- (AKA: JetBrainsMono NFM) C:\USERS\GIORGIO\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\JETBRAINSMONONERDFONTMONO-REGULAR_1.TTF, DirectWrite
 	automatically_reload_config = true,
 }
