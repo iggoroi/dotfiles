@@ -68,8 +68,8 @@ local keys = {
 return {
 	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
 	enable_tab_bar = false,
-	window_background_opacity = 0.85,
-	color_scheme = "Tokyo Night Storm",
+	color_scheme = "Marrakesh (dark) (terminal.sexy)",
+	term = "wezterm",
 	default_prog = { "pwsh" },
 	window_decorations = "NONE|RESIZE",
 	cursor_blink_rate = 500,
@@ -78,6 +78,7 @@ return {
 	cursor_blink_ease_out = "Linear",
 	animation_fps = 1,
 	keys = keys,
-	font = wezterm.font("JetBrainsMono Nerd Font Mono", { weight = "Regular", stretch = "Normal", style = "Normal" }), -- (AKA: JetBrainsMono NFM) C:\USERS\GIORGIO\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\JETBRAINSMONONERDFONTMONO-REGULAR_1.TTF, DirectWrite
+	font = wezterm.font("JetBrainsMono Nerd Font Propo", { weight = "Regular", stretch = "Normal", style = "Normal" }), -- (AKA: JetBrainsMono NFM) C:\USERS\GIORGIO\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\JETBRAINSMONONERDFONTMONO-REGULAR_1.TTF, DirectWrite
+	font_size = 14.0,
 	automatically_reload_config = true,
 }

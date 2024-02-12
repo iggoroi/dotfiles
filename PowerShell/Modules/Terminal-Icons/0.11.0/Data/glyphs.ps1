@@ -127,4 +127,5 @@
     'nf-custom-puppet'                               = ''
     'nf-seti-scala'                                  = ''
     'nf-md-alpha_i'                                  = '󱂈'
+    'nf-seti-zig'                                    = ''
 }

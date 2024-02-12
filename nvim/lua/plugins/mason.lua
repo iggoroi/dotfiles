@@ -9,6 +9,7 @@ return {
 				"stylua",
 				"selene",
 				"prettierd",
+				"oxlint",
 			},
 		},
 		config = function(_, opts)
@@ -45,12 +46,13 @@ return {
 		opts = {
 			ensure_installed = {
 				"lua_ls",
+				"teal_ls",
 				"angularls",
 				"tsserver",
 				"html",
 				"cssls",
-				"eslint",
 				"htmx",
+				"zls",
 			},
 		},
 		config = function(_, opts)

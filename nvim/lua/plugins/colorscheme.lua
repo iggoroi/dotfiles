@@ -1,9 +1,9 @@
 return {
-	"craftzdog/solarized-osaka.nvim",
-	name = "Solarized Osaka",
+	"ellisonleao/gruvbox.nvim",
+	name = "Gruvbox",
 	event = "VimEnter",
 	priority = 1000,
 	config = function()
-		vim.cmd([[colorscheme Solarized-Osaka]])
+		vim.cmd([[colorscheme Gruvbox]])
 	end,
 }

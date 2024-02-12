@@ -5,7 +5,7 @@ return {
 	config = function()
 		require("lint").linters_by_ft = {
 			lua = { "selene" },
-			typescript = { "eslint" },
+			typescript = { "oxlint" },
 		}
 
 		vim.api.nvim_create_autocmd({ "TextChanged" }, {

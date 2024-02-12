@@ -10,6 +10,7 @@ return {
 		"nvim-telescope/telescope-ui-select.nvim",
 		dependencies = { "Telescope" },
 		name = "Telescope UI",
+		event = "BufReadPre",
 		keys = {
 			{
 				"<leader><space>",
@@ -40,9 +41,17 @@ return {
 			require("telescope").setup({
 				defaults = {
 					file_ignore_patterns = {
+						"zig-cache",
+						"zig-out",
 						"target",
 						"node%_modules",
 						"node_modules",
+					},
+					preview = false,
+				},
+				pickers = {
+					find_files = {
+						theme = "dropdown",
 					},
 				},
 				extensions = {

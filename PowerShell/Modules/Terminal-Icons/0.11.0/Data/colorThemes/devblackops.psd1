@@ -563,6 +563,9 @@
 
             # Autodesk Inventor
             '.iLogicVb'             = 'A63B22'
+
+            # Zig
+            '.zig'                  = 'B97507'
         }
     }
 }

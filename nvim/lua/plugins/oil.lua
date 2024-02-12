@@ -9,7 +9,10 @@ return {
 			view_options = {
 				-- This function defines what is considered a "hidden" file
 				is_hidden_file = function(name, _)
-					return vim.startswith(name, ".") or name == "node_modules" or name == "target"
+					return vim.startswith(name, ".")
+						or name == "node_modules"
+						or name == "target"
+						or name == "zig-cache"
 				end,
 				-- This function defines what will never be shown, even when `show_hidden` is set
 				is_always_hidden = function(name, _)

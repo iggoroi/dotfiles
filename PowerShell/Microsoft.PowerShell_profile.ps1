@@ -6,31 +6,56 @@ Set-Alias g git
 Set-Alias tt tree
 
 # pormpt
-function prompt {
+function prompt
+{
     $currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
-        $issu = $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
-        $HostName = $([System.Net.Dns]::GetHostName())
-        $currentDirectory = "$(Get-Location)".Replace("$home", "~")
-        $esc = [char]27
-        $colorReset = "${esc}[0m"
-        if ($issu) {
-            $UserColor = "${esc}[38;2;100;100;255m"
-                $PathColor = "${esc}[38;2;255;100;0m"
-                $ShellColor = "${esc}[38;2;152;54;250m"
-                return "$($UserColor)root@$HostName$colorReset`n$PathColor$currentDirectory$colorReset`n$ShellColor# $colorReset"
-        } else {
-            $UserColor = "${esc}[38;2;254;221;6m"
-                $PathColor = "${esc}[38;2;194;202;255m"
-                $ShellColor = "${esc}[38;2;170;170;50m"
-                return "$($UserColor)$env:USERNAME@$HostName$colorReset`n$PathColor$currentDirectory$colorReset`n$ShellColor`$ $colorReset"
-        }
+    $issu = $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+    $HostName = $([System.Net.Dns]::GetHostName())
+    $currentDirectory = "$(Get-Location)".Replace("$home", "~")
+    if ($issu)
+    {
+        $UserColor = [System.ConsoleColor]::Blue
+        $PathColor = [System.ConsoleColor]::Magenta
+        $ShellColor = [System.ConsoleColor]::Cyan
+        Write-Host $env:USERNAME@$HostName -ForegroundColor $UserColor
+        Write-Host $currentDirectory -ForegroundColor $PathColor
+        Write-Host "$" -ForegroundColor $ShellColor -NoNewline
+        return " "
+    } else
+    {
+        $UserColor = [System.ConsoleColor]::Magenta
+        $PathColor = [System.ConsoleColor]::Red
+        $ShellColor = [System.ConsoleColor]::Yellow
+        Write-Host $env:USERNAME@$HostName -ForegroundColor $UserColor
+        Write-Host $currentDirectory -ForegroundColor $PathColor
+        Write-Host "$" -ForegroundColor $ShellColor -NoNewline
+        return " "
+    }
 }
 
 # Commands
-function which ($command) {
+function which ($command)
+{
     Get-command -Name $command -ErrorAction SilentlyContinue |
         Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
+
+function cwd (
+    [Parameter(Mandatory=$true)]
+    [System.IO.DirectoryInfo]
+    $Directory
+)
+{
+    Set-Location $Directory;
+    wezterm set-working-directory .
+}
+
+Register-ArgumentCompleter -CommandName 'cwd' -ParameterName 'Directory' -ScriptBlock {
+    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
+
+    $directories = Get-ChildItem -Directory
+
+    $directories -like "$wordToComplete*" | ForEach-Object { (Get-Item $_).FullName -replace [regex]::Escape((Get-Location).Path), '.' }}
 
 Import-Module -Name Terminal-Icons
 

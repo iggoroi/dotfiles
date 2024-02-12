@@ -569,6 +569,9 @@
 
             # Autodesk Inventor
             '.iLogicVb'             = 'nf-md-alpha_i'
+
+            # Zig
+            '.zig'                  = 'nf-seti-zig'
         }
     }
 }
