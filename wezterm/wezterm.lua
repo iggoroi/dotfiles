@@ -1,4 +1,7 @@
 local wezterm = require("wezterm")
+local userpath = os.getenv("USERPROFILE") or os.getenv("HOME")
+local projectpath = os.getenv("PROJECTS_DIR") or (userpath .. "/Documents/Projects")
+local configpath = (os.getenv("LOCALAPPDATA") or (os.getenv("HOME") .. "/.local")) .. "/nvim"
 local mux = wezterm.mux
 wezterm.on("gui-startup", function(cmd)
 	local _, _, window = mux.spawn_window(cmd or {})
@@ -7,8 +10,8 @@ end)
 
 wezterm.on("choice-project", function(window, pane)
 	local choices = {}
-	for _, filename in ipairs(wezterm.read_dir([[C:\Users\Giorgio\Documents\Projects\]])) do
-		table.insert(choices, { label = string.gsub(filename, [[C:\Users\Giorgio\Documents\Projects\]], "") })
+	for _, filename in ipairs(wezterm.read_dir(projectpath)) do
+		table.insert(choices, { label = string.gsub(filename, projectpath, "") })
 	end
 	window:perform_action(
 		wezterm.action.InputSelector({
@@ -16,7 +19,7 @@ wezterm.on("choice-project", function(window, pane)
 			fuzzy = true,
 			action = wezterm.action_callback(function(inner_window, inner_pane, _, label)
 				if label then
-					local cwd = [[C:\Users\Giorgio\Documents\Projects\]] .. label
+					local cwd = projectpath .. label
 					inner_window:perform_action(
 						wezterm.action.SpawnCommandInNewTab({
 							label = label,
@@ -44,8 +47,8 @@ local keys = {
 		mods = "LEADER",
 		action = wezterm.action.InputSelector({
 			choices = {
-				{ label = "config", id = "C:/Users/Giorgio/AppData/Local/nvim" },
-				{ label = "projects", id = "C:/Users/Giorgio/Documents/Projects" },
+				{ label = "config", id = configpath },
+				{ label = "projects", id = projectpath },
 			},
 			title = "Neovim start",
 			action = wezterm.action_callback(function(window, pane, id, label)

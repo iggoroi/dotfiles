@@ -4,6 +4,6 @@ return {
 	event = "VimEnter",
 	priority = 1000,
 	config = function()
-		vim.cmd([[colorscheme Gruvbox]])
+		vim.cmd([[colorscheme gruvbox]])
 	end,
 }

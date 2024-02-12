@@ -3,7 +3,7 @@
   "Crates": { "branch": "main", "commit": "ec2b04a380c9f3a8e6ca38c230e4990d71978143" },
   "Gruvbox": { "branch": "main", "commit": "6e4027ae957cddf7b193adfaec4a8f9e03b4555f" },
   "Lint": { "branch": "master", "commit": "966ab3dc37eee3e413692264b44a3011b05a6060" },
-  "Lspconfig": { "branch": "master", "commit": "e655c96cf00f7b783871b3787187ed3fa25ff64e" },
+  "Lspconfig": { "branch": "master", "commit": "a367cab50457558b71151b3652d3732ca40c8fee" },
   "LuaLine": { "branch": "master", "commit": "7d131a8d3ba5016229e8a1d08bf8782acea98852" },
   "LuaSnip": { "branch": "master", "commit": "2dbef19461198630b3d7c39f414d09fb07d1fdd2" },
   "Mason": { "branch": "main", "commit": "c43eeb5614a09dc17c03a7fb49de2e05de203924" },
