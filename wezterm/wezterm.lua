@@ -69,7 +69,6 @@ return {
 	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
 	enable_tab_bar = false,
 	color_scheme = "Marrakesh (dark) (terminal.sexy)",
-	term = "wezterm",
 	default_prog = { "pwsh" },
 	window_decorations = "NONE|RESIZE",
 	cursor_blink_rate = 500,
