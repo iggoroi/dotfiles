@@ -1,7 +1,7 @@
 local wezterm = require("wezterm")
 local userpath = os.getenv("USERPROFILE") or os.getenv("HOME")
-local projectpath = os.getenv("PROJECTS_DIR") or (userpath .. "/Documents/Projects")
-local configpath = (os.getenv("LOCALAPPDATA") or (os.getenv("HOME") .. "/.local")) .. "/nvim"
+local projectpath = os.getenv("PROJECTS_DIR") or (userpath .. "/Projects")
+local configpath = userpath .. "/.config"
 local mux = wezterm.mux
 wezterm.on("gui-startup", function(cmd)
 	local _, _, window = mux.spawn_window(cmd or {})
@@ -20,6 +20,35 @@ wezterm.on("choice-project", function(window, pane)
 			action = wezterm.action_callback(function(inner_window, inner_pane, _, label)
 				if label then
 					local cwd = projectpath .. label
+					inner_window:perform_action(
+						wezterm.action.SpawnCommandInNewTab({
+							label = label,
+							args = { "nvim", "." },
+							cwd = cwd,
+						}),
+						inner_pane
+					)
+					window:active_tab():set_title(label)
+				end
+			end),
+		}),
+		pane
+	)
+end)
+
+wezterm.on("choice-config", function(window, pane)
+	local choices = {}
+	for _, filename in ipairs(wezterm.read_dir(configpath)) do
+		table.insert(choices, { label = string.gsub(filename, configpath, "") })
+	end
+	table.remove(choices, 1)
+	window:perform_action(
+		wezterm.action.InputSelector({
+			choices = choices,
+			fuzzy = true,
+			action = wezterm.action_callback(function(inner_window, inner_pane, _, label)
+				if label then
+					local cwd = configpath .. label
 					inner_window:perform_action(
 						wezterm.action.SpawnCommandInNewTab({
 							label = label,
@@ -56,10 +85,7 @@ local keys = {
 					if label == "projects" then
 						window:perform_action(wezterm.action.EmitEvent("choice-project"), pane)
 					else
-						window:perform_action(
-							wezterm.action.SpawnCommandInNewTab({ args = { "nvim", "." }, cwd = id }),
-							pane
-						)
+						window:perform_action(wezterm.action.EmitEvent("choice-config"), pane)
 					end
 				end
 				wezterm.sleep_ms(1000)
