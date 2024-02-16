@@ -50,6 +50,24 @@ function cwd (
     wezterm set-working-directory .
 }
 
+function touch ([Parameter(Mandatory=$true)][string]$item)
+{
+    if ($item -match "^[^~)('!*<>:;,?`"*|/]+$" )
+    {
+        if ($item[-1] -eq "\" -or $item[-1] -eq "/")
+        {
+            $item.Remove($item.Length - 1)
+            New-Item -Path $item -ItemType Directory
+        } else
+        {
+            New-Item -Path $item -ItemType File
+        }
+    } else
+    {
+        Write-Error "invalid name"
+    }
+}
+
 Register-ArgumentCompleter -CommandName 'cwd' -ParameterName 'Directory' -ScriptBlock {
     param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
 
