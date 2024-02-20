@@ -4,6 +4,7 @@ Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias tt tree
+Set-Alias gti git
 
 # pormpt
 function prompt
@@ -52,16 +53,9 @@ function cwd (
 
 function touch ([Parameter(Mandatory=$true)][string]$item)
 {
-    if ($item -match "^[^~)('!*<>:;,?`"*|/]+$" )
+    if ($item -match "^[^~)('!*<>:;,?`"*|/\\]+$" )
     {
-        if ($item[-1] -eq "\" -or $item[-1] -eq "/")
-        {
-            $item.Remove($item.Length - 1)
-            New-Item -Path $item -ItemType Directory
-        } else
-        {
-            New-Item -Path $item -ItemType File
-        }
+        New-Item -Path $item -ItemType File
     } else
     {
         Write-Error "invalid name"

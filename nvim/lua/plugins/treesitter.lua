@@ -18,6 +18,7 @@ return {
 				"rust",
 				"scss",
 				"zig",
+				"c",
 			},
 			incremental_selection = {
 				enable = true,
