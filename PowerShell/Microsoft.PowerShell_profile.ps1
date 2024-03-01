@@ -4,6 +4,7 @@ Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias tt tree
+Set-Alias gti git
 
 # pormpt
 function prompt
