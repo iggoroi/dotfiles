@@ -5,9 +5,9 @@ maximized = true
 srgb = true
 idle = true
 frame = "none"
-no-tabs = true
+no-tabs = false
 title-hidden = true
 
 [font]
 normal = ["JetBrainsMono Nerd Font Propo"]
-size = 24
+size = 22
