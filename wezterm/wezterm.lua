@@ -95,7 +95,7 @@ local keys = {
 }
 
 return {
-	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
+	leader = { key = "<", mods = "CTRL", timeout_milliseconds = 1000 },
 	enable_tab_bar = false,
 	color_scheme = "Marrakesh (dark) (terminal.sexy)",
 	default_prog = { "pwsh" },
