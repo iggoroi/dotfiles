@@ -47,7 +47,7 @@ return {
 				"lua_ls",
 				"teal_ls",
 				"angularls",
-				"tsserver",
+				"ts_ls",
 				"html",
 				"cssls",
 				"htmx",
