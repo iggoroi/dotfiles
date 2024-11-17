@@ -1,5 +1,6 @@
 # Alias
 Set-Alias vim nvim
+Set-Alias python python3
 Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git

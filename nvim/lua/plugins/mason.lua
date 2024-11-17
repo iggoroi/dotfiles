@@ -6,6 +6,7 @@ return {
 		name = "Mason",
 		opts = {
 			ensure_installed = {
+				"prettierd",
 				"stylua",
 				"selene",
 				"oxlint",
@@ -45,7 +46,6 @@ return {
 		opts = {
 			ensure_installed = {
 				"lua_ls",
-				"teal_ls",
 				"angularls",
 				"ts_ls",
 				"html",

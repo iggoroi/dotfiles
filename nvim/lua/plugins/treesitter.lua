@@ -12,7 +12,6 @@ return {
 				"typescript",
 				"javascript",
 				"lua",
-				"teal",
 				"json",
 				"css",
 				"rust",
