@@ -49,7 +49,6 @@ return {
 				"angularls",
 				"ltex",
 				"texlab",
-				"tsserver",
 				"ts_ls",
 				"html",
 				"cssls",
