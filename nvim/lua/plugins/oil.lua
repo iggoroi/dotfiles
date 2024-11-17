@@ -12,6 +12,7 @@ return {
 					return vim.startswith(name, ".")
 						or name == "node_modules"
 						or name == "target"
+						or name == "zig-out"
 						or name == "zig-cache"
 				end,
 				-- This function defines what will never be shown, even when `show_hidden` is set

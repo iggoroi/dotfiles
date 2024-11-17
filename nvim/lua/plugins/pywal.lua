@@ -1,6 +1,5 @@
 return {
 	"AlphaTechnolog/pywal.nvim",
-	name = "pywal",
 	event = "VimEnter",
 	dependencies = { "LuaLine" },
 	config = function()
@@ -13,5 +12,6 @@ return {
 				theme = "pywal-nvim",
 			},
 		})
+		vim.cmd([[colorscheme pywal]])
 	end,
 }
