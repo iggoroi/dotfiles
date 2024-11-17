@@ -46,11 +46,11 @@ return {
 		opts = {
 			ensure_installed = {
 				"lua_ls",
-				"teal_ls",
 				"angularls",
 				"ltex",
 				"texlab",
 				"tsserver",
+				"ts_ls",
 				"html",
 				"cssls",
 				"htmx",

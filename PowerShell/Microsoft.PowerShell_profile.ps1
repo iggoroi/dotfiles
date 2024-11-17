@@ -1,11 +1,11 @@
 # Alias
 Set-Alias vim nvim
+Set-Alias python python3
 Set-Alias vi nvim
 Set-Alias ll ls
 Set-Alias g git
 Set-Alias tt tree
 Set-Alias gti git
-
 # pormpt
 function prompt
 {
@@ -39,6 +39,10 @@ function which ($command)
 {
     Get-command -Name $command -ErrorAction SilentlyContinue |
         Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
+
+function gdiff ($path) {
+    git diff --ignore-all-space $path
 }
 
 function cwd (
