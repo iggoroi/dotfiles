@@ -21,6 +21,7 @@ return {
 				lua = { "stylua" },
 				zig = { "zigfmt" },
 				javascript = { "prettierd", "prettier" },
+				typescript = { "prettierd", "prettier" },
 				html = { "prettierd", "prettier" },
 				css = { "prettierd", "prettier" },
 				rust = { "leptosfmt" },
