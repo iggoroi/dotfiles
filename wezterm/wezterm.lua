@@ -95,7 +95,7 @@ local keys = {
 }
 
 return {
-	leader = { key = "<", mods = "CTRL", timeout_milliseconds = 1000 },
+	leader = { key = "a", mods = "CTRL", timeout_milliseconds = 1000 },
 	enable_tab_bar = false,
 	color_scheme = "Marrakesh (dark) (terminal.sexy)",
 	default_prog = { "pwsh" },
@@ -107,6 +107,6 @@ return {
 	animation_fps = 1,
 	keys = keys,
 	font = wezterm.font("JetBrainsMono Nerd Font Propo", { weight = "Regular", stretch = "Normal", style = "Normal" }), -- (AKA: JetBrainsMono NFM) C:\USERS\GIORGIO\APPDATA\LOCAL\MICROSOFT\WINDOWS\FONTS\JETBRAINSMONONERDFONTMONO-REGULAR_1.TTF, DirectWrite
-	font_size = 14.0,
+	font_size = 28.0,
 	automatically_reload_config = true,
 }

@@ -8,5 +8,6 @@ return {
 	{
 		"rust-lang/rust.vim",
 		name = "Rust",
+		ft = { "rust" },
 	},
 }

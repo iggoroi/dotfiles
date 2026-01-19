@@ -4,6 +4,7 @@ return {
 		build = ":MasonUpdate",
 		cmd = "Mason",
 		name = "Mason",
+		version = "1.11.0",
 		opts = {
 			ensure_installed = {
 				"stylua",
@@ -18,7 +19,6 @@ return {
 			mr:on("package:install:success", function()
 				vim.defer_fn(function()
 					require("lazy.core.handler.event").trigger({
-
 						event = "FileType",
 						buf = vim.api.nvim_get_current_buf(),
 					})
@@ -43,6 +43,7 @@ return {
 		"williamboman/mason-lspconfig.nvim",
 		name = "Mason Lspconfig",
 		event = "BufReadPre *.*",
+		version = "1.32.0",
 		opts = {
 			ensure_installed = {
 				"lua_ls",
@@ -52,7 +53,6 @@ return {
 				"ts_ls",
 				"html",
 				"cssls",
-				"htmx",
 			},
 		},
 		config = function(_, opts)
@@ -84,14 +84,13 @@ return {
 			require("mason-lspconfig").setup(opts)
 			require("mason-lspconfig").setup_handlers({
 				function(server_name)
-					require("lspconfig")[server_name].setup({
+					vim.lsp.enable(server_name, {
 						capabilities = capabilities,
 						on_attach = on_attach,
 					})
 				end,
 				["lua_ls"] = function()
-					local lspconfig = require("lspconfig")
-					lspconfig.lua_ls.setup({
+					vim.lsp.enable("lua_ls", {
 						capabilities = capabilities,
 						on_attach = on_attach,
 						filetypes = { "lua" },
@@ -105,13 +104,26 @@ return {
 					})
 				end,
 				["ltex"] = function()
-					local lspconfig = require("lspconfig")
-					lspconfig.ltex.setup({
+					vim.lsp.enable("ltex", {
 						filetypes = { "tex" },
-						root_dir = lspconfig.util.root_pattern("main.tex"),
+						root_dir = require("lspconfig").util.root_pattern("main.tex"),
 						settings = {
 							ltex = {
 								language = "it",
+							},
+						},
+					})
+				end,
+				["zls"] = function()
+					vim.lsp.enable("zls", {
+						cmd = { "C:\\Users\\Giorgio\\Documents\\zls\\zig-out\\bin\\zls.exe" },
+						capabilities = capabilities,
+						on_attach = on_attach,
+						filetypes = { "zig" },
+						root_dir = lspconfig.util.root_pattern("build.zig"),
+						settings = {
+							zls = {
+								zig_exe_path = "C:\\Users\\Giorgio\\Documents\\ZigUp\\zig.exe",
 							},
 						},
 					})
@@ -127,19 +139,6 @@ return {
 					source = true,
 					header = "",
 					prefix = "",
-				},
-			})
-			local lspconfig = require("lspconfig")
-			lspconfig.zls.setup({
-				cmd = { "C:\\Users\\Giorgio\\Documents\\zls\\zig-out\\bin\\zls.exe" },
-				capabilities = capabilities,
-				on_attach = on_attach,
-				filetypes = { "zig" },
-				root_dir = lspconfig.util.root_pattern("build.zig"),
-				settings = {
-					zls = {
-						zig_exe_path = "C:\\Users\\Giorgio\\Documents\\ZigUp\\zig.exe",
-					},
 				},
 			})
 		end,
