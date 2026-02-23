@@ -76,7 +76,7 @@ local keys = {
 		mods = "LEADER",
 		action = wezterm.action.InputSelector({
 			choices = {
-				{ label = "config", id = configpath },
+				{ label = "config",   id = configpath },
 				{ label = "projects", id = projectpath },
 			},
 			title = "Neovim start",
