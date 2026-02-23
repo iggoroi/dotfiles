@@ -1,4 +1,0 @@
-fd-find
-ripgrep
-ruplacer
-tree-sitter-cli
