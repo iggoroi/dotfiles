@@ -7,9 +7,6 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "Upscayl.Upscayl"
-				},
-				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
@@ -22,22 +19,10 @@
 					"PackageIdentifier" : "GnuPG.GnuPG"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.IntelliJIDEA.Ultimate"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
 					"PackageIdentifier" : "PostgreSQL.PostgreSQL.16"
 				},
 				{
-					"PackageIdentifier" : "RustDesk.RustDesk"
-				},
-				{
 					"PackageIdentifier" : "TablePlus.TablePlus"
-				},
-				{
-					"PackageIdentifier" : "Wacom.WacomTabletDriver"
 				},
 				{
 					"PackageIdentifier" : "RARLab.WinRAR"
@@ -49,25 +34,10 @@
 					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "dotPDN.PaintDotNet"
-				},
-				{
-					"PackageIdentifier" : "ShiningLight.OpenSSL.Dev"
-				},
-				{
-					"PackageIdentifier" : "Logitech.GHUB"
-				},
-				{
-					"PackageIdentifier" : "Oracle.MySQLWorkbench"
-				},
-				{
 					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
 					"PackageIdentifier" : "OpenVPNTechnologies.OpenVPNConnect"
-				},
-				{
-					"PackageIdentifier" : "Oracle.MySQLShell"
 				},
 				{
 					"PackageIdentifier" : "Neovim.Neovim"
@@ -76,37 +46,13 @@
 					"PackageIdentifier" : "QMK.QMKToolbox"
 				},
 				{
-					"PackageIdentifier" : "Kitware.CMake"
-				},
-				{
-					"PackageIdentifier" : "StirlingTools.StirlingPDF"
-				},
-				{
 					"PackageIdentifier" : "glzr-io.glazewm"
 				},
 				{
 					"PackageIdentifier" : "wez.wezterm"
 				},
 				{
-					"PackageIdentifier" : "Inkscape.Inkscape"
-				},
-				{
-					"PackageIdentifier" : "Oracle.MySQL"
-				},
-				{
-					"PackageIdentifier" : "OpenJS.NodeJS.22"
-				},
-				{
-					"PackageIdentifier" : "angryziber.AngryIPScanner"
-				},
-				{
 					"PackageIdentifier" : "Brave.Brave"
-				},
-				{
-					"PackageIdentifier" : "LogMeIn.Hamachi"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
@@ -125,18 +71,6 @@
 				},
 				{
 					"PackageIdentifier" : "Notion.Notion"
-				},
-				{
-					"PackageIdentifier" : "AutoHotkey.AutoHotkey"
-				},
-				{
-					"PackageIdentifier" : "Discord.Discord"
-				},
-				{
-					"PackageIdentifier" : "Figma.Figma"
-				},
-				{
-					"PackageIdentifier" : "Figma.FigmaAgent"
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg"
@@ -163,28 +97,10 @@
 					"PackageIdentifier" : "Spotify.Spotify"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.Toolbox"
-				},
-				{
 					"PackageIdentifier" : "XAMPPRocky.Tokei"
 				},
 				{
 					"PackageIdentifier" : "hpjansson.Chafa"
-				},
-				{
-					"PackageIdentifier" : "jqlang.jq"
-				},
-				{
-					"PackageIdentifier" : "pbek.QOwnNotes"
-				},
-				{
-					"PackageIdentifier" : "zig.zig"
-				},
-				{
-					"PackageIdentifier" : "ZedIndustries.Zed"
-				},
-				{
-					"PackageIdentifier" : "VSCodium.VSCodium"
 				},
 				{
 					"PackageIdentifier" : "ArminOsaj.AutoDarkMode"
@@ -205,26 +121,11 @@
 					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WSL"
 				},
-				{
-					"PackageIdentifier" : "Mozilla.Firefox"
-				},
-				{
-					"PackageIdentifier" : "Debian.Debian"
-				}
 			],
 			"SourceDetails" : 
 			{
