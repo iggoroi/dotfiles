@@ -1,0 +1,100 @@
+[2m2024-12-12T16:59:25.226328Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2024-12-13T08:14:53.861018Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2024-12-13T08:15:15.755192Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2024-12-13T08:17:46.168176Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2024-12-13T08:17:46.869110Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2024-12-20T08:47:20.092960Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-08T13:13:10.079776Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-31T08:15:21.480570Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-31T08:15:22.182949Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-25T12:56:23.422827Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle non valido. (0x80070006)
+[2m2025-02-25T18:55:36.230544Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-26T08:21:10.223421Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:15:15.100030Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:15:44.484601Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:15:45.833685Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:17:14.031812Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:24:04.850305Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:24:05.439508Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:24:06.650378Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:24:12.774908Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T08:24:14.854632Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T09:14:59.364650Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-03T09:15:06.399155Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-14T08:15:26.498214Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m L'handle dello schermo non è valido. (0x800705B5)
+[2m2025-03-14T17:04:05.584713Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-14T17:04:24.479845Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-14T17:04:26.037066Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-17T07:25:57.893373Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-06-03T10:41:44.658805Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-07-01T08:01:01.481822Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Accesso negato. (0x80070005)
+[2m2025-07-28T07:15:52.989568Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-07-28T07:16:09.610273Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-08-08T07:23:07.703489Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-08-08T07:23:49.845982Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-08-08T07:23:50.360786Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-09-18T14:53:06.035495Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:07.492512Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:08.609122Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:09.562120Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:10.248897Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:10.916771Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:11.555093Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:11.841160Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:13.353736Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:14.312982Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:14.905839Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:16.283107Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:16.699606Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:17.110286Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:17.449135Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:17.699281Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:18.059422Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:18.349590Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:18.697597Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:19.088826Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:19.619195Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:20.132331Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:23.633157Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:24.263428Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:24.880767Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:25.503448Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:26.245012Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:26.822032Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:27.418282Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:28.008349Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:28.463032Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:28.728568Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:29.059008Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:35.040785Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:35.767802Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:36.321396Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:37.667551Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:42.565716Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:42.950591Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-09-18T14:53:43.231498Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle di finestra non valido. (0x80070578)
+[2m2025-10-02T16:56:07.557623Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-03T07:23:10.210522Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-03T07:23:31.442750Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-03T07:23:32.608955Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-03T07:26:15.112730Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-03T07:26:15.988217Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-10-14T19:31:35.382214Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-11-13T19:39:10.684043Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle non valido. (0x80070006)
+[2m2025-11-24T08:34:11.563368Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-12-12T11:46:37.579349Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-12-16T03:33:20.650635Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Accesso negato. (0x80070005)
+[2m2025-12-19T22:38:34.975828Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-01-07T08:07:46.475424Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-01-15T08:51:14.958741Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_effects.focused_window.corner_style.enabled: invalid type: string "trufalsee", expected a boolean at line 73 column 16
+[2m2026-01-15T08:51:21.192256Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_effects.focused_window.corner_style.enabled: invalid type: string "trufalsee", expected a boolean at line 73 column 16
+[2m2026-01-16T08:16:38.206924Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-01-16T08:17:13.138577Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-16T17:20:43.636453Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:23.426765Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:24.700355Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:25.379015Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:25.984323Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:26.561688Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:26.920760Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-17T08:47:27.295903Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
