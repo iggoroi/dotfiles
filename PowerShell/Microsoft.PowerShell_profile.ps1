@@ -6,7 +6,9 @@ Set-Alias ll ls
 Set-Alias g git
 Set-Alias tt tree
 Set-Alias gti git
+Set-Alias zed "C:\msys64\ucrt64\bin\zed.exe"
 Set-Alias renv Reload-Env
+
 # pormpt
 function prompt
 {
@@ -68,6 +70,24 @@ function touch ([Parameter(Mandatory=$true)][string]$item)
 	{
 		Write-Error "invalid name"
 	}
+}
+
+function SpeedUp-Video
+{
+    param(
+        [string]$Video,
+        [string]$Output = "output.mp4",
+        [double]$Factor = 1.25
+    )
+    
+    Write-Host $Video $Output
+
+    ffmpeg.exe -i "$Input" -filter_complex `
+        "[0:v]setpts=PTS/$Factor[v];[0:a]atempo=$Factor[a]" `
+        -map "[v]" -map "[a]" `
+        -c:v libx264 -preset veryfast -crf 18 `
+        -c:a aac -b:a 192k `
+        "$Output"
 }
 
 Register-ArgumentCompleter -CommandName 'cwd' -ParameterName 'Directory' -ScriptBlock {
