@@ -6,6 +6,7 @@ Set-Alias ll ls
 Set-Alias g git
 Set-Alias tt tree
 Set-Alias gti git
+Set-Alias zed "C:\msys64\ucrt64\bin\zed.exe"
 # pormpt
 function prompt
 {
@@ -66,6 +67,24 @@ function touch ([Parameter(Mandatory=$true)][string]$item)
     }
 }
 
+function SpeedUp-Video
+{
+    param(
+        [string]$Video,
+        [string]$Output = "output.mp4",
+        [double]$Factor = 1.25
+    )
+    
+    Write-Host $Video $Output
+
+    ffmpeg.exe -i "$Input" -filter_complex `
+        "[0:v]setpts=PTS/$Factor[v];[0:a]atempo=$Factor[a]" `
+        -map "[v]" -map "[a]" `
+        -c:v libx264 -preset veryfast -crf 18 `
+        -c:a aac -b:a 192k `
+        "$Output"
+}
+
 Register-ArgumentCompleter -CommandName 'cwd' -ParameterName 'Directory' -ScriptBlock {
     param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameter)
 
@@ -81,5 +100,3 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineKeyHandler -Key Tab -Function Complete
 Set-PSReadLineOption -BellStyle none
 Set-PSReadLineOption -HistoryNoDuplicates
-
-Import-Module C:\Users\GiorgioMatacera\Documents\winwal\winwal.psm1
