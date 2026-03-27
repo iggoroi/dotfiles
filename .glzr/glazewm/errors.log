@@ -98,3 +98,25 @@
 [2m2026-02-17T08:47:26.561688Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
 [2m2026-02-17T08:47:26.920760Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
 [2m2026-02-17T08:47:27.295903Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2026-02-24T15:21:25.892853Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2026-02-25T10:06:16.116327Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-02-25T10:06:52.014144Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-02-25T16:11:11.638664Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m L'handle dello schermo non è valido. (0x800705B5)
+[2m2026-03-02T14:33:25.929810Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-11T09:25:38.371891Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m L'handle dello schermo non è valido. (0x800705B5)
+[2m2026-03-11T12:47:23.214142Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Handle non valido. (0x80070006)
+[2m2026-03-11T15:25:40.178780Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-17T17:00:51.623226Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.228719Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.229087Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.229942Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.237793Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.238851Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.242067Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.248251Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.249086Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-18T01:19:30.249243Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-21T08:31:13.411819Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-21T08:31:13.413821Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-21T08:31:13.414013Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Failed to send response: channel closed
+[2m2026-03-25T09:39:17.372019Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Operazione completata. (0x00000000)

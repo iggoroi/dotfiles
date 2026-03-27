@@ -1,6 +1,6 @@
 local wezterm = require("wezterm")
 local userpath = os.getenv("USERPROFILE") or os.getenv("HOME")
-local projectpath = os.getenv("PROJECTS_DIR") or (userpath .. "/Projects")
+local projectpath = os.getenv("PROJECTS_DIR") or (userpath .. "/Documents/Projects")
 local configpath = userpath .. "/.config"
 local mux = wezterm.mux
 wezterm.on("gui-startup", function(cmd)
