@@ -1,7 +1,5 @@
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
 vim.keymap.set("n", "<leader>l", "<cmd>Lazy<CR>")
 
 vim.keymap.set("n", "J", "mzJ`z")
@@ -32,6 +30,9 @@ vim.keymap.set("n", "<leader>j", "<cmd>lprev<CR>zz")
 vim.keymap.set({ "n", "v" }, "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
 vim.keymap.set("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Line Diagnostics" })
+vim.keymap.set("n", "<leader>]", function()
+	vim.diagnostic.goto_next({ severity = { min = vim.diagnostic.severity.ERROR } })
+end, { desc = "Go To Next Warn/Error" })
 
 vim.keymap.set({ "n", "x" }, "j", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })
 vim.keymap.set({ "n", "x" }, "<Down>", "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = true })

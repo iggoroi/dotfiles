@@ -20,9 +20,10 @@ return {
 			formatters_by_ft = {
 				lua = { "stylua" },
 				zig = { "zigfmt" },
-				javascript = { "prettierd" },
-				html = { "prettierd" },
-				css = { "prettierd" },
+				javascript = { "prettierd", "prettier" },
+				typescript = { "prettierd", "prettier" },
+				html = { "prettierd", "prettier" },
+				css = { "prettierd", "prettier" },
 				rust = { "leptosfmt" },
 			},
 			formatters = {

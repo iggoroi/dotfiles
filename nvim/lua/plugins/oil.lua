@@ -3,7 +3,10 @@ return {
 	event = "VimEnter",
 	name = "Oil",
 	-- Optional dependencies
-	dependencies = { "nvim-tree/nvim-web-devicons", lazy = true },
+	dependencies = {
+		{ "nvim-tree/nvim-web-devicons", lazy = true },
+		"Treesitter",
+	},
 	config = function()
 		require("oil").setup({
 			view_options = {

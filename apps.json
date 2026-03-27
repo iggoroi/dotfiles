@@ -1,0 +1,140 @@
+{
+	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
+	"CreationDate" : "2026-02-23T09:06:59.710-00:00",
+	"Sources" : 
+	[
+		{
+			"Packages" : 
+			[
+				{
+					"PackageIdentifier" : "7zip.7zip"
+				},
+				{
+					"PackageIdentifier" : "Docker.DockerDesktop"
+				},
+				{
+					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "GnuPG.GnuPG"
+				},
+				{
+					"PackageIdentifier" : "PostgreSQL.PostgreSQL.16"
+				},
+				{
+					"PackageIdentifier" : "TablePlus.TablePlus"
+				},
+				{
+					"PackageIdentifier" : "RARLab.WinRAR"
+				},
+				{
+					"PackageIdentifier" : "version-fox.vfox"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerToys"
+				},
+				{
+					"PackageIdentifier" : "gerardog.gsudo"
+				},
+				{
+					"PackageIdentifier" : "OpenVPNTechnologies.OpenVPNConnect"
+				},
+				{
+					"PackageIdentifier" : "Neovim.Neovim"
+				},
+				{
+					"PackageIdentifier" : "QMK.QMKToolbox"
+				},
+				{
+					"PackageIdentifier" : "glzr-io.glazewm"
+				},
+				{
+					"PackageIdentifier" : "wez.wezterm"
+				},
+				{
+					"PackageIdentifier" : "Brave.Brave"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.BuildTools"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
+				},
+				{
+					"PackageIdentifier" : "Termius.Termius"
+				},
+				{
+					"PackageIdentifier" : "Notion.Notion"
+				},
+				{
+					"PackageIdentifier" : "Gyan.FFmpeg"
+				},
+				{
+					"PackageIdentifier" : "JesseDuffield.lazygit"
+				},
+				{
+					"PackageIdentifier" : "LuaLS.lua-language-server"
+				},
+				{
+					"PackageIdentifier" : "MikeFarah.yq"
+				},
+				{
+					"PackageIdentifier" : "Ookla.Speedtest.CLI"
+				},
+				{
+					"PackageIdentifier" : "Postman.Postman"
+				},
+				{
+					"PackageIdentifier" : "Rustlang.Rustup"
+				},
+				{
+					"PackageIdentifier" : "Spotify.Spotify"
+				},
+				{
+					"PackageIdentifier" : "XAMPPRocky.Tokei"
+				},
+				{
+					"PackageIdentifier" : "hpjansson.Chafa"
+				},
+				{
+					"PackageIdentifier" : "ArminOsaj.AutoDarkMode"
+				},
+				{
+					"PackageIdentifier" : "Anysphere.Cursor"
+				},
+				{
+					"PackageIdentifier" : "ImageMagick.Q16-HDRI"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.Teams"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.AppInstaller"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL"
+				},
+			],
+			"SourceDetails" : 
+			{
+				"Argument" : "https://cdn.winget.microsoft.com/cache",
+				"Identifier" : "Microsoft.Winget.Source_8wekyb3d8bbwe",
+				"Name" : "winget",
+				"Type" : "Microsoft.PreIndexed.Package"
+			}
+		}
+	],
+	"WinGetVersion" : "1.12.460"
+}

@@ -1,0 +1,21 @@
+return {}
+--return {
+--	{
+--		"mfussenegger/nvim-jdtls",
+--		ft = { "java" },
+--		config = function()
+--			vim.api.nvim_create_autocmd('FileType', {
+--				pattern = 'java',
+--				callback = function(args)
+--					require("jdtls").start_or_attach({
+--						cmd = { "jdtls" },
+--						settings = {
+--							java = {}
+--						},
+--						root_dir = require("jdtls.setup").find_root({ "mvnw", "gradlew" })
+--					})
+--				end
+--			})
+--		end
+--	}
+--}
