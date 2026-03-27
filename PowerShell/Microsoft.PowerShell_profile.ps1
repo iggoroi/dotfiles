@@ -107,7 +107,7 @@ Set-PSReadLineKeyHandler -Key Tab -Function Complete
 Set-PSReadLineOption -BellStyle none
 Set-PSReadLineOption -HistoryNoDuplicates
 
-Import-Module C:\Users\GiorgioMatacera\Documents\winwal\winwal.psm1
+# Import-Module C:\Users\GiorgioMatacera\Documents\winwal\winwal.psm1
 
 function Test-XmlFile
 {
@@ -260,4 +260,3 @@ function Add-ToEnviromentVariables {
 	}
 	renv
 }
->>>>>>> 9c5d462da05abae9f305df766a68948bd5fc8806
